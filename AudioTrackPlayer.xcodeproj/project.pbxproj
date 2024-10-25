@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		CE14436C2CC8D1F400963CFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE14436B2CC8D1F400963CFB /* AppDelegate.swift */; };
 		CE14436E2CC8D1F400963CFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE14436D2CC8D1F400963CFB /* SceneDelegate.swift */; };
-		CE1443702CC8D1F400963CFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE14436F2CC8D1F400963CFB /* ViewController.swift */; };
-		CE1443732CC8D1F400963CFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1443712CC8D1F400963CFB /* Main.storyboard */; };
+		CE1443702CC8D1F400963CFB /* TracklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE14436F2CC8D1F400963CFB /* TracklistViewController.swift */; };
 		CE1443752CC8D1FA00963CFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1443742CC8D1FA00963CFB /* Assets.xcassets */; };
 		CE1443782CC8D1FA00963CFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1443762CC8D1FA00963CFB /* LaunchScreen.storyboard */; };
+		CE1443852CC8D94800963CFB /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1443842CC8D94800963CFB /* Track.swift */; };
+		CE1443872CC8DB7F00963CFB /* AudioPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1443862CC8DB7F00963CFB /* AudioPlayerViewController.swift */; };
+		CE1443892CC8DCB700963CFB /* TracklistViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1443882CC8DCB700963CFB /* TracklistViewModel.swift */; };
+		CE14438B2CC8DCD900963CFB /* AudioPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE14438A2CC8DCD900963CFB /* AudioPlayerViewModel.swift */; };
+		CE14438E2CC8E18B00963CFB /* TracklistStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE14438D2CC8E18B00963CFB /* TracklistStorage.swift */; };
+		CE1443902CC8F5EB00963CFB /* NoRoots.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE14438F2CC8F5EB00963CFB /* NoRoots.mp3 */; };
+		CE1443922CC8FC7700963CFB /* Warriors.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE1443912CC8FC7700963CFB /* Warriors.mp3 */; };
+		CE1443942CC9145A00963CFB /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1443932CC9145A00963CFB /* TrackCell.swift */; };
+		CE75D7C42CCA63E600CFCE21 /* WanderingJew.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE75D7C32CCA63E500CFCE21 /* WanderingJew.mp3 */; };
+		CE75D7C62CCA63ED00CFCE21 /* BeforeWinter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE75D7C52CCA63ED00CFCE21 /* BeforeWinter.mp3 */; };
+		CE75D7C82CCA63F200CFCE21 /* American-boy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE75D7C72CCA63F200CFCE21 /* American-boy.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE1443682CC8D1F400963CFB /* AudioTrackPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioTrackPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE14436B2CC8D1F400963CFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE14436D2CC8D1F400963CFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE14436F2CC8D1F400963CFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE1443722CC8D1F400963CFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE14436F2CC8D1F400963CFB /* TracklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracklistViewController.swift; sourceTree = "<group>"; };
 		CE1443742CC8D1FA00963CFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE1443772CC8D1FA00963CFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CE1443792CC8D1FA00963CFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE1443792CC8D1FA00963CFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = AudioTrackPlayer/App/Info.plist; sourceTree = SOURCE_ROOT; };
+		CE1443842CC8D94800963CFB /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		CE1443862CC8DB7F00963CFB /* AudioPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerViewController.swift; sourceTree = "<group>"; };
+		CE1443882CC8DCB700963CFB /* TracklistViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracklistViewModel.swift; sourceTree = "<group>"; };
+		CE14438A2CC8DCD900963CFB /* AudioPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerViewModel.swift; sourceTree = "<group>"; };
+		CE14438D2CC8E18B00963CFB /* TracklistStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracklistStorage.swift; sourceTree = "<group>"; };
+		CE14438F2CC8F5EB00963CFB /* NoRoots.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = NoRoots.mp3; path = AudioTrackPlayer/Recources/Music/NoRoots.mp3; sourceTree = SOURCE_ROOT; };
+		CE1443912CC8FC7700963CFB /* Warriors.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Warriors.mp3; sourceTree = "<group>"; };
+		CE1443932CC9145A00963CFB /* TrackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
+		CE75D7C32CCA63E500CFCE21 /* WanderingJew.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WanderingJew.mp3; sourceTree = "<group>"; };
+		CE75D7C52CCA63ED00CFCE21 /* BeforeWinter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "BeforeWinter.mp3"; sourceTree = "<group>"; };
+		CE75D7C72CCA63F200CFCE21 /* American-boy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "American-boy.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,81 @@
 		CE14436A2CC8D1F400963CFB /* AudioTrackPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				CE14436B2CC8D1F400963CFB /* AppDelegate.swift */,
-				CE14436D2CC8D1F400963CFB /* SceneDelegate.swift */,
-				CE14436F2CC8D1F400963CFB /* ViewController.swift */,
-				CE1443712CC8D1F400963CFB /* Main.storyboard */,
-				CE1443742CC8D1FA00963CFB /* Assets.xcassets */,
-				CE1443762CC8D1FA00963CFB /* LaunchScreen.storyboard */,
-				CE1443792CC8D1FA00963CFB /* Info.plist */,
+				CE14437F2CC8D56900963CFB /* App */,
+				CE1443812CC8D90000963CFB /* Models */,
+				CE1443822CC8D90800963CFB /* Views */,
+				CE1443832CC8D90F00963CFB /* ViewModels */,
+				CE14438C2CC8E16700963CFB /* Storage */,
+				CE1443802CC8D57600963CFB /* Recources */,
 			);
 			path = AudioTrackPlayer;
+			sourceTree = "<group>";
+		};
+		CE14437F2CC8D56900963CFB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CE14436B2CC8D1F400963CFB /* AppDelegate.swift */,
+				CE14436D2CC8D1F400963CFB /* SceneDelegate.swift */,
+				CE1443792CC8D1FA00963CFB /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CE1443802CC8D57600963CFB /* Recources */ = {
+			isa = PBXGroup;
+			children = (
+				CE75D7C92CCA63FA00CFCE21 /* Music */,
+				CE1443762CC8D1FA00963CFB /* LaunchScreen.storyboard */,
+				CE1443742CC8D1FA00963CFB /* Assets.xcassets */,
+			);
+			path = Recources;
+			sourceTree = "<group>";
+		};
+		CE1443812CC8D90000963CFB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE1443842CC8D94800963CFB /* Track.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE1443822CC8D90800963CFB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE14436F2CC8D1F400963CFB /* TracklistViewController.swift */,
+				CE1443932CC9145A00963CFB /* TrackCell.swift */,
+				CE1443862CC8DB7F00963CFB /* AudioPlayerViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE1443832CC8D90F00963CFB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CE1443882CC8DCB700963CFB /* TracklistViewModel.swift */,
+				CE14438A2CC8DCD900963CFB /* AudioPlayerViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CE14438C2CC8E16700963CFB /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				CE14438D2CC8E18B00963CFB /* TracklistStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		CE75D7C92CCA63FA00CFCE21 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				CE14438F2CC8F5EB00963CFB /* NoRoots.mp3 */,
+				CE1443912CC8FC7700963CFB /* Warriors.mp3 */,
+				CE75D7C32CCA63E500CFCE21 /* WanderingJew.mp3 */,
+				CE75D7C52CCA63ED00CFCE21 /* BeforeWinter.mp3 */,
+				CE75D7C72CCA63F200CFCE21 /* American-boy.mp3 */,
+			);
+			path = Music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +211,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE1443922CC8FC7700963CFB /* Warriors.mp3 in Resources */,
+				CE75D7C82CCA63F200CFCE21 /* American-boy.mp3 in Resources */,
+				CE75D7C42CCA63E600CFCE21 /* WanderingJew.mp3 in Resources */,
+				CE1443902CC8F5EB00963CFB /* NoRoots.mp3 in Resources */,
 				CE1443782CC8D1FA00963CFB /* LaunchScreen.storyboard in Resources */,
+				CE75D7C62CCA63ED00CFCE21 /* BeforeWinter.mp3 in Resources */,
 				CE1443752CC8D1FA00963CFB /* Assets.xcassets in Resources */,
-				CE1443732CC8D1F400963CFB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +228,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE1443702CC8D1F400963CFB /* ViewController.swift in Sources */,
+				CE1443892CC8DCB700963CFB /* TracklistViewModel.swift in Sources */,
+				CE1443702CC8D1F400963CFB /* TracklistViewController.swift in Sources */,
+				CE1443942CC9145A00963CFB /* TrackCell.swift in Sources */,
+				CE14438B2CC8DCD900963CFB /* AudioPlayerViewModel.swift in Sources */,
 				CE14436C2CC8D1F400963CFB /* AppDelegate.swift in Sources */,
+				CE1443872CC8DB7F00963CFB /* AudioPlayerViewController.swift in Sources */,
 				CE14436E2CC8D1F400963CFB /* SceneDelegate.swift in Sources */,
+				CE1443852CC8D94800963CFB /* Track.swift in Sources */,
+				CE14438E2CC8E18B00963CFB /* TracklistStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CE1443712CC8D1F400963CFB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE1443722CC8D1F400963CFB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CE1443762CC8D1FA00963CFB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,10 +376,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AudioTrackPlayer/Info.plist;
+				INFOPLIST_FILE = AudioTrackPlayer/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,10 +402,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AudioTrackPlayer/Info.plist;
+				INFOPLIST_FILE = AudioTrackPlayer/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
