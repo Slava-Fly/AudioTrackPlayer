@@ -20,7 +20,6 @@
 		CE1443902CC8F5EB00963CFB /* NoRoots.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE14438F2CC8F5EB00963CFB /* NoRoots.mp3 */; };
 		CE1443922CC8FC7700963CFB /* Warriors.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE1443912CC8FC7700963CFB /* Warriors.mp3 */; };
 		CE1443942CC9145A00963CFB /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1443932CC9145A00963CFB /* TrackCell.swift */; };
-		CE75D7C42CCA63E600CFCE21 /* WanderingJew.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE75D7C32CCA63E500CFCE21 /* WanderingJew.mp3 */; };
 		CE75D7C62CCA63ED00CFCE21 /* BeforeWinter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE75D7C52CCA63ED00CFCE21 /* BeforeWinter.mp3 */; };
 		CE75D7C82CCA63F200CFCE21 /* American-boy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE75D7C72CCA63F200CFCE21 /* American-boy.mp3 */; };
 /* End PBXBuildFile section */
@@ -41,7 +40,6 @@
 		CE14438F2CC8F5EB00963CFB /* NoRoots.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = NoRoots.mp3; path = AudioTrackPlayer/Recources/Music/NoRoots.mp3; sourceTree = SOURCE_ROOT; };
 		CE1443912CC8FC7700963CFB /* Warriors.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Warriors.mp3; sourceTree = "<group>"; };
 		CE1443932CC9145A00963CFB /* TrackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
-		CE75D7C32CCA63E500CFCE21 /* WanderingJew.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WanderingJew.mp3; sourceTree = "<group>"; };
 		CE75D7C52CCA63ED00CFCE21 /* BeforeWinter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "BeforeWinter.mp3"; sourceTree = "<group>"; };
 		CE75D7C72CCA63F200CFCE21 /* American-boy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "American-boy.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -146,7 +144,6 @@
 			children = (
 				CE14438F2CC8F5EB00963CFB /* NoRoots.mp3 */,
 				CE1443912CC8FC7700963CFB /* Warriors.mp3 */,
-				CE75D7C32CCA63E500CFCE21 /* WanderingJew.mp3 */,
 				CE75D7C52CCA63ED00CFCE21 /* BeforeWinter.mp3 */,
 				CE75D7C72CCA63F200CFCE21 /* American-boy.mp3 */,
 			);
@@ -213,7 +210,6 @@
 			files = (
 				CE1443922CC8FC7700963CFB /* Warriors.mp3 in Resources */,
 				CE75D7C82CCA63F200CFCE21 /* American-boy.mp3 in Resources */,
-				CE75D7C42CCA63E600CFCE21 /* WanderingJew.mp3 in Resources */,
 				CE1443902CC8F5EB00963CFB /* NoRoots.mp3 in Resources */,
 				CE1443782CC8D1FA00963CFB /* LaunchScreen.storyboard in Resources */,
 				CE75D7C62CCA63ED00CFCE21 /* BeforeWinter.mp3 in Resources */,
