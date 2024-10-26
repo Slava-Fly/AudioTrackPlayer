@@ -50,11 +50,7 @@ class AudioPlayerViewController: UIViewController {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
-    func configure(with viewModel: AudioPlayerViewModel) {
-        self.viewModel = viewModel
-    }
-    
+   
     private func setupUI() {
         view.backgroundColor = .white
         
@@ -105,6 +101,8 @@ class AudioPlayerViewController: UIViewController {
             
             playPauseButton.topAnchor.constraint(equalTo: progressSlider.bottomAnchor, constant: 40),
             playPauseButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            playPauseButton.widthAnchor.constraint(equalToConstant: 50),
+            playPauseButton.heightAnchor.constraint(equalToConstant: 50),
             
             prevButton.centerYAnchor.constraint(equalTo: playPauseButton.centerYAnchor),
             prevButton.trailingAnchor.constraint(equalTo: playPauseButton.leadingAnchor, constant: -20),
@@ -150,7 +148,11 @@ class AudioPlayerViewController: UIViewController {
         progressSlider.value =  viewModel.trackProgress() 
     }
     
-    @objc func closeTapped() {
+    private func configure(with viewModel: AudioPlayerViewModel) {
+        self.viewModel = viewModel
+    }
+    
+    @objc private func closeTapped() {
         dismiss(animated: true)
     }
     

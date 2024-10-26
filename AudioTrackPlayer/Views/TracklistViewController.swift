@@ -11,7 +11,7 @@ class TracklistViewController: UIViewController {
     private let tableView = UITableView()
     private let viewModel = TracklistViewModel()
     private var currentTrackIndex: Int?
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupTableView()
