@@ -22,6 +22,10 @@
 		CE1443942CC9145A00963CFB /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1443932CC9145A00963CFB /* TrackCell.swift */; };
 		CE75D7C62CCA63ED00CFCE21 /* BeforeWinter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE75D7C52CCA63ED00CFCE21 /* BeforeWinter.mp3 */; };
 		CE75D7C82CCA63F200CFCE21 /* American-boy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE75D7C72CCA63F200CFCE21 /* American-boy.mp3 */; };
+		CE7CBE1A2CD5E515008F9E1F /* WanderingJew.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE7CBE192CD5E515008F9E1F /* WanderingJew.mp3 */; };
+		CE7CBE1C2CD5E522008F9E1F /* KaifoGrad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE7CBE1B2CD5E522008F9E1F /* KaifoGrad.mp3 */; };
+		CE7CBE1E2CD5E52B008F9E1F /* NocnaiaTravma.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE7CBE1D2CD5E52B008F9E1F /* NocnaiaTravma.mp3 */; };
+		CE7CBE202CD5E538008F9E1F /* Aborigen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE7CBE1F2CD5E538008F9E1F /* Aborigen.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +46,10 @@
 		CE1443932CC9145A00963CFB /* TrackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
 		CE75D7C52CCA63ED00CFCE21 /* BeforeWinter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "BeforeWinter.mp3"; sourceTree = "<group>"; };
 		CE75D7C72CCA63F200CFCE21 /* American-boy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "American-boy.mp3"; sourceTree = "<group>"; };
+		CE7CBE192CD5E515008F9E1F /* WanderingJew.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WanderingJew.mp3; sourceTree = "<group>"; };
+		CE7CBE1B2CD5E522008F9E1F /* KaifoGrad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = KaifoGrad.mp3; sourceTree = "<group>"; };
+		CE7CBE1D2CD5E52B008F9E1F /* NocnaiaTravma.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = NocnaiaTravma.mp3; sourceTree = "<group>"; };
+		CE7CBE1F2CD5E538008F9E1F /* Aborigen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Aborigen.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,8 +152,12 @@
 			children = (
 				CE14438F2CC8F5EB00963CFB /* NoRoots.mp3 */,
 				CE1443912CC8FC7700963CFB /* Warriors.mp3 */,
+				CE7CBE192CD5E515008F9E1F /* WanderingJew.mp3 */,
 				CE75D7C52CCA63ED00CFCE21 /* BeforeWinter.mp3 */,
+				CE7CBE1B2CD5E522008F9E1F /* KaifoGrad.mp3 */,
+				CE7CBE1D2CD5E52B008F9E1F /* NocnaiaTravma.mp3 */,
 				CE75D7C72CCA63F200CFCE21 /* American-boy.mp3 */,
+				CE7CBE1F2CD5E538008F9E1F /* Aborigen.mp3 */,
 			);
 			path = Music;
 			sourceTree = "<group>";
@@ -209,10 +221,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE1443922CC8FC7700963CFB /* Warriors.mp3 in Resources */,
+				CE7CBE1C2CD5E522008F9E1F /* KaifoGrad.mp3 in Resources */,
 				CE75D7C82CCA63F200CFCE21 /* American-boy.mp3 in Resources */,
 				CE1443902CC8F5EB00963CFB /* NoRoots.mp3 in Resources */,
+				CE7CBE202CD5E538008F9E1F /* Aborigen.mp3 in Resources */,
 				CE1443782CC8D1FA00963CFB /* LaunchScreen.storyboard in Resources */,
 				CE75D7C62CCA63ED00CFCE21 /* BeforeWinter.mp3 in Resources */,
+				CE7CBE1A2CD5E515008F9E1F /* WanderingJew.mp3 in Resources */,
+				CE7CBE1E2CD5E52B008F9E1F /* NocnaiaTravma.mp3 in Resources */,
 				CE1443752CC8D1FA00963CFB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
